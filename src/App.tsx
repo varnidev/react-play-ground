@@ -1,9 +1,17 @@
-import React from 'react';
+import TopNavBar from "./component/TopNavBar";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div>Hello React
-    </div>
+    <>
+    <TopNavBar/>    
+    <BrowserRouter>
+      <Routes>
+        <Route path='/'  element={<Home/>} />
+      </Routes>
+    </BrowserRouter>
+    </>
   );
 }
 
