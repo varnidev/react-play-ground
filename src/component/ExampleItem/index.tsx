@@ -11,7 +11,7 @@ const Index = (props: ExampleItemProps) => {
   return (
     <Nav.Link
       as={Link}
-      to={item?.to}
+      to={item?.link}
       style={{ minWidth: "16rem", width: "16rem" }}
       className="m-2 flex-grow-1 cursor-pointer"
     >

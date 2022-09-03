@@ -4,6 +4,14 @@ This project is for learning react with different library.
 
 ---
 
+### V2022.09.004
+
+  - Add Routing Package for redirect one page to another page.
+  - ```npm install react-router-dom```
+  - Implement Route
+
+---
+
 ### V2022.09.003
 
   - Add Bootstrap package for UI.

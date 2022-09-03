@@ -1,6 +1,6 @@
 {
   "name": "react-play-ground",
-  "version": "2022.09.003",
+  "version": "2022.09.004",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
