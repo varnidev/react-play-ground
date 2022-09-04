@@ -1,7 +1,7 @@
 {
   "name": "react-play-ground",
-  "description": "This project for learn different packege use. development",
-  "version": "2022.09.004",
+  "description": "This project for learn different packege use.",
+  "version": "2022.09.005",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

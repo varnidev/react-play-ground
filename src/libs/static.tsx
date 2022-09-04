@@ -1,14 +1,3 @@
-import FirebaseAuth from "../pages/FirebaseAuth"
-
-export const exampleObject = (title:string, description:string, component:any,  path:string, link?:string)=>{
-    return {
-        title,
-        description,
-        component,
-        path,
-        link: link || path
-    }
+export enum ROUTE_PATH_NAME {
+    FIREBASE_AUTH_EMAIL_PASSWORD = "/firebase-auth-email-password",
 }
-export const exampleList = [
-    exampleObject("Firebase Authentication","Authentication Process Using Firebase.", FirebaseAuth, "/firebase-auth"),
-];
