@@ -1,5 +1,4 @@
 import { AuthContext } from "../../../context/AuthContext";
-import { AuthProvider } from "../../../provider/AuthProvider";
 import FormAndDetail from "./FormAndDetail";
 import { useEffect, useState } from "react";
 import { auth } from "../../../libs/firebase-config";

@@ -4,11 +4,16 @@ This project is for learning react with different library.
 
 ---
 
+### V2022.09.006
+
+  - Remove some unused defined variable.
+---
+
 ### V2022.09.005
 
-  - Implement Firebase Autentication Process Using Email/Password
-    - Sign In using login and password
-    - Sing Up using login and password
+  - Implement Firebase Autentication Process Using Email/Password.
+    - Sign In using login and password.
+    - Sing Up using login and password.
 
 ---
 
@@ -16,7 +21,7 @@ This project is for learning react with different library.
 
   - Add Routing Package for redirect one page to another page.
   - ```npm install react-router-dom```
-  - Implement Route
+  - Implement Route.
 
 ---
 

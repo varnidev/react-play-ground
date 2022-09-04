@@ -1,5 +1,5 @@
 import React, { useContext, useRef, useState } from "react";
-import { Button, Col, Container, Form, Navbar, Row , Alert} from "react-bootstrap";
+import { Button, Col, Container, Form, Row , Alert} from "react-bootstrap";
 import { AuthContext } from "../../../context/AuthContext";
 import { auth, createNewAccount, loginWitEmailPassword } from "../../../libs/firebase-config";
 
