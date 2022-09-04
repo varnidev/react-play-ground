@@ -1,12 +1,18 @@
 # react-play-ground
 
-This project is for learning react with different library.
+This project is for learning react with different library using typescript.
+  
+  - Bootstrap
+  - React Router
+  - Firebase
+  - typescript
 
 ---
 
-### V2022.09.006
+### V2022.09.005
 
   - Remove some unused defined variable.
+
 ---
 
 ### V2022.09.005
@@ -21,7 +27,7 @@ This project is for learning react with different library.
 
   - Add Routing Package for redirect one page to another page.
   - ```npm install react-router-dom```
-  - Implement Route.
+  - Implement Route
 
 ---
 
