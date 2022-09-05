@@ -9,6 +9,12 @@ This project is for learning react with different library using typescript.
 
 ---
 
+### V2022.09.008
+
+  - Implement firebase login process with google
+
+---
+
 ### V2022.09.005
 
   - Remove some unused defined variable.
