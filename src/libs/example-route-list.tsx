@@ -1,5 +1,5 @@
-import LoginWithEmailAndPassword from "../pages/FirebaseAuth/LoginWithEmailAndPassword";
-import LoginWithGoogle from "../pages/FirebaseAuth/LoginWithGoogle";
+import FirebaseAuth from "../pages/FirebaseAuth";
+import FirestoreDatabase from "../pages/FirestoreDatabase";
 import { ROUTE_PATH_NAME } from "./static";
 
 export interface ExampleListProps {
@@ -15,7 +15,7 @@ export const exampleObject = (
   description: string,
   component: any,
   path: ROUTE_PATH_NAME,
-  link?: string,
+  link?: string
 ): ExampleListProps => {
   return {
     title,
@@ -28,15 +28,15 @@ export const exampleObject = (
 
 export const exampleRouteList: Array<ExampleListProps> = [
   exampleObject(
-    "Firebase Authentication With Email/Password",
-    "Authentication Process Using Firebase with register with email and password and then login.",
-    LoginWithEmailAndPassword,
-    ROUTE_PATH_NAME.FIREBASE_AUTH_EMAIL_PASSWORD
-  ),
+    "Firebase Authentication",
+    "Firebase authentication using google and email/password",
+    FirebaseAuth,
+    ROUTE_PATH_NAME.FIREBASE_AUTH
+  ), 
   exampleObject(
-    "Firebase Authentication With Google",
-    "Authentication Process Using Firebase with google service.",
-    LoginWithGoogle,
-    ROUTE_PATH_NAME.FIREBASE_AUTH_GOOGLE
+    "Firebase Datastore",
+    "Working with firebase datastore",
+    FirestoreDatabase,
+    ROUTE_PATH_NAME.FIRESTORE_DATABASE
   ),
 ];

@@ -9,6 +9,13 @@ This project is for learning react with different library using typescript.
 
 ---
 
+### V2022.09.009
+
+  - Merge email/password and google authentication process in single process.
+  - Implement firestore database insert and display list process with TO DO example.
+
+---
+
 ### V2022.09.008
 
   - Implement firebase login process with google

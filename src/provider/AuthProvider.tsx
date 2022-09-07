@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { auth } from "../libs/firebase-config";
 
-export const AuthProvider: React.FC = (props:any) => {
+export const AuthProvider = (props: any) => {
   const [user, setUser] = useState<any>();
 
   useEffect(() => {
@@ -13,5 +13,7 @@ export const AuthProvider: React.FC = (props:any) => {
     return unsubscribe;
   }, []);
 
-  return <AuthContext.Provider value={user}>{props.children}</AuthContext.Provider>;
+  return (
+    <AuthContext.Provider value={user}>{props?.children}</AuthContext.Provider>
+  );
 };
