@@ -9,6 +9,13 @@ This project is for learning react with different library using typescript.
 
 ---
 
+### V2022.09.010
+
+  - Implement Delete from firestore database with TO DO example.
+  - Implement commonn bootstrap formcontrol component.
+  
+---
+
 ### V2022.09.009
 
   - Merge email/password and google authentication process in single process.
